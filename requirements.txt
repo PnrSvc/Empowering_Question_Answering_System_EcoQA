@@ -1,0 +1,11 @@
+openai
+tiktoken
+chromadb
+langchain
+unstructured
+unstructured[local-inference]
+gradio
+transformers
+torch
+pipeline
+transformers
