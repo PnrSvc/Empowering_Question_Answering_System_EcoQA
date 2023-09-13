@@ -2,7 +2,6 @@
 
 
 ---
-title: Demo4
 emoji: 👁
 colorFrom: yellow
 colorTo: pink
