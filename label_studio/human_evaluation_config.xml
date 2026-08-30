@@ -1,0 +1,11 @@
+<View>
+  <Header value="Generative Response Quality"/>
+  <Text name="question" value="$question"/>
+  <Text name="evidence" value="$evidence"/>
+  <Text name="response" value="$response"/>
+  <Rating name="correctness" toName="response" maxRating="5" required="true"/>
+  <Rating name="clarity" toName="response" maxRating="5" required="true"/>
+  <Rating name="sufficiency" toName="response" maxRating="5" required="true"/>
+  <Rating name="helpfulness" toName="response" maxRating="5" required="true"/>
+  <TextArea name="notes" toName="response" rows="3"/>
+</View>

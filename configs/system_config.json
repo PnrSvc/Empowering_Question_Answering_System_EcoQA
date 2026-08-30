@@ -1,0 +1,63 @@
+{
+  "data": {
+    "repo": "https://github.com/Gokcimen/Home_Appliance_Dataset",
+    "train": 8000,
+    "validation": 1000,
+    "test": 1000,
+    "total": 10000,
+    "products": 1111
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "learning_rate": 3e-05,
+    "batch_size_extractive": 16,
+    "effective_batch_size_large_models": 16,
+    "epochs": 3,
+    "weight_decay": 0.01,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "gradient_clipping": 1.0,
+    "seed": 42,
+    "hardware": "NVIDIA A100"
+  },
+  "kg": {
+    "backend": "Neo4j",
+    "version": "5.12.0",
+    "product_entity_nodes": 1111,
+    "question_nodes": 10000,
+    "answer_nodes": 10000,
+    "total_nodes": 21111,
+    "product_question_edges": 10000,
+    "question_answer_edges": 10000,
+    "total_edges": 20000
+  },
+  "retrieval": {
+    "vector_db": "ChromaDB",
+    "legacy_version": "0.4.10",
+    "chunk_size": 1000,
+    "chunk_overlap": 0,
+    "embedding": "text-embedding-ada-002",
+    "top_k": 4,
+    "similarity": "cosine"
+  },
+  "routing": {
+    "confidence_range": [
+      0,
+      1
+    ],
+    "threshold": 0.9
+  },
+  "gpt": {
+    "models": [
+      "gpt-3.5-turbo-0301",
+      "gpt-4-0314"
+    ],
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "n": 1,
+    "max_tokens": 512,
+    "stream": false,
+    "presence_penalty": 0.1,
+    "frequency_penalty": 0.5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/Gokcimen/Home_Appliance_Dataset",
+  "raw_urls": {
+    "train": "https://raw.githubusercontent.com/Gokcimen/Home_Appliance_Dataset/main/train.json",
+    "dev": "https://raw.githubusercontent.com/Gokcimen/Home_Appliance_Dataset/main/dev.json",
+    "test": "https://raw.githubusercontent.com/Gokcimen/Home_Appliance_Dataset/main/test.json"
+  },
+  "expected": {
+    "train": 8000,
+    "dev": 1000,
+    "test": 1000,
+    "total": 10000,
+    "products": 1111
+  },
+  "split_policy": "product-level grouped split",
+  "bundled_data": false
+}

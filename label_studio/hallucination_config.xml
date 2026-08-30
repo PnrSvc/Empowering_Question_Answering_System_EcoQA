@@ -1,0 +1,9 @@
+<View>
+  <Header value="Hallucination / Evidence Support"/>
+  <Text name="question" value="$question"/>
+  <Text name="evidence" value="$evidence"/>
+  <Text name="response" value="$response"/>
+  <Number name="total_atomic_claims" toName="response" required="true"/>
+  <Number name="unsupported_atomic_claims" toName="response" required="true"/>
+  <TextArea name="notes" toName="response" rows="4"/>
+</View>

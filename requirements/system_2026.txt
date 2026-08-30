@@ -1,0 +1,11 @@
+-r modern_llm_2026.txt
+neo4j==5.12.0
+chromadb
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+openai
+sentence-transformers
+krippendorff
+gradio

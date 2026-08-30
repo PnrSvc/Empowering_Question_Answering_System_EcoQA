@@ -1,0 +1,5 @@
+{
+  "table7_metric_notebook": "Colab/06_Evaluation/Table7_Metrics.ipynb",
+  "table7_metric_module": "src/eqas/table7_metrics.py",
+  "dataset_files_bundled": false
+}

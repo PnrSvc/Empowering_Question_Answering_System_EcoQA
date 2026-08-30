@@ -1,0 +1,4 @@
+configuration,backbone,F1,EM
+EQAS without KG enhancement,Llama-3.3-70B-Instruct,77.42,44.60
+EQAS with KG enhancement,Llama-3.3-70B-Instruct,79.93,46.82
+Absolute Improvement,,2.51,2.22

@@ -1,0 +1,10 @@
+openai==0.28.0
+tiktoken
+chromadb==0.4.10
+langchain==0.0.279
+unstructured
+unstructured[local-inference]
+gradio==3.42.0
+transformers==4.33.1
+torch==2.0.1
+requests==2.31.0
